@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Product Detail - Covetly</title>
+
+  <!-- Bootstrap -->
+  <link href="assets/libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Icon -->
+  <link href="assets/libs/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <!-- style -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,800" rel="stylesheet">
+  <link href="assets/libs/slick-1.8.0/slick/slick.css" rel="stylesheet">
+  <link href="assets/libs/slick-1.8.0/slick/slick-theme.css" rel="stylesheet">
+  <link href="assets/libs/ion.rangeSlider-master/css/normalize.css" rel="stylesheet">
+  <link href="assets/css/ion.rangeSlider.skinCovetly.css" rel="stylesheet">
+  <link href="assets/css/jack-style.css" rel="stylesheet">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <body>
+
+    <div class="header">
+      <div class="header-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-lg-2">
+              <a class="header-brand" href="#">
+                <img alt="Brand" src="assets/images/logo_2_w161.png" class="img-responsive">
+              </a>
+            </div>
+            <div class="col-xs-12 col-lg-10">
+              <form class="form-inline search-bar normal-screen">
+                <div class="form-group">
+                  <div class="input-group my-group">
+                    <!-- <div class="input-group-addon">
+                    <i class="fa fa-search"></i>
+                  </div> -->
+                  <input type="text" class="form-control" placeholder="Search...">
+                  <select id="cat-search" class="styled-select selectpicker form-control" data-live-search="true" title="Please select a lunch ...">
+                    <option value="" selected>CATEGORY</option>
+                    <option value="1">Category 1</option>
+                    <option value="2">Category 2</option>
+                    <option value="3">Category 3</option>
+                    <option value="4">Category 4</option>
+                  </select>
+                  <span class="input-group-btn">
+                    <button type="submit" class="btn btn-dark btn-search"><i class="fa fa-search fa-lg"></i></button>
+
+                  </span>
+                </div>
+                <!-- <a href="#" data-toggle="modal" data-target="#modal_downloadapp_2" class="btn btn-green btn-navbar">Download APP</a> -->
+                <a href="#" class="btn-cart has-dot"><i class="fa fa-shopping-cart"></i>
+                  <div class="dot dot-green">12</div>
+                </a>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-menu">
+      <nav class="navbar navbar-default">
+        <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-menu2" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+          </div>
+
+          <!-- Collect the nav links, forms, and other content for toggling -->
+          <div class="collapse navbar-collapse" id="bs-menu2">
+
+            <ul class="nav navbar-nav">
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Funko Pop</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Star Wars</a></li>
+                  <li><a href="#">Marvel</a></li>
+                  <li><a href="#">Animation</a></li>
+                </ul>
+              </li>
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" role="button" aria-haspopup="true" aria-expanded="false">DorbZ</a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Heroes</a></li>
+                  <li><a href="#">Holidays</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="">Lego</a></li>
+              <li><a href="#" class="">Tokidoki</a></li>
+              <li><a href="#" class="">Mistery Minis</a></li>
+              <li><a href="#" class="">Kid Robot</a></li>
+              <li><a href="#" class="">Live Bids</a></li>
+              <li><a href="#" class="">Account</a></li>
+              <li><a href="#" class="">Contact</a></li>
+
+            </ul>
+          </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+      </nav>
+    </div>
+  </div>
+  <!-- header close -->
+
+  <div class="nav-breadcrumb">
+    <div class="container">
+      <ul class="list-inline">
+        <li class="bc-item"><a href="#">Home</a></li>
+        <li class="bc-item">/</li>
+        <li class="bc-item"><a href="#">Funko Pop!</a></li>
+        <li class="bc-item">/</li>
+        <li class="bc-item"><a href="#">Disney</a></li>
+        <li class="bc-item">/</li>
+        <li class="bc-item bc-last"><a href="#">Genie Metallic #54</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- close breadcrumb -->
+
+  <div class="container">
+    <div class="product-detail">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-7">
+          <div class="product-image">
+            <div class="main-image">
+              <div class="mi-item"><img src="assets/images/covetly_prod/08.png" alt="Image"></div>
+              <div class="mi-item"><img src="assets/images/covetly_prod/09.png" alt="Image"></div>
+              <div class="mi-item"><img src="assets/images/covetly_prod/10.png" alt="Image"></div>
+              <div class="mi-item"><img src="assets/images/covetly_prod/01.jpg" alt="Image"></div>
+              <div class="mi-item"><img src="assets/images/covetly_prod/02.png" alt="Image"></div>
+              <div class="mi-item"><img src="assets/images/covetly_prod/03.png" alt="Image"></div>
+              <div class="mi-item"><img src="assets/images/covetly_prod/04.png" alt="Image"></div>
+            </div>
+            <div class="nav-image">
+              <div class="ni-item"><img src="assets/images/covetly_prod/08.png" alt="Image"></div>
+              <div class="ni-item"><img src="assets/images/covetly_prod/09.png" alt="Image"></div>
+              <div class="ni-item"><img src="assets/images/covetly_prod/10.png" alt="Image"></div>
+              <div class="ni-item"><img src="assets/images/covetly_prod/01.jpg" alt="Image"></div>
+              <div class="ni-item"><img src="assets/images/covetly_prod/02.png" alt="Image"></div>
+              <div class="ni-item"><img src="assets/images/covetly_prod/03.png" alt="Image"></div>
+              <div class="ni-item"><img src="assets/images/covetly_prod/04.png" alt="Image"></div>
+            </div>
+
+          </div>
+          <div class="text-center pd-button visible-md visible-lg">
+            <div class="row">
+              <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-push-1">
+                <a href="#" class="btn btn-block btn-outline-green"><i class="fa fa-plus"></i> ADD TO COLLECTION</a>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-push-1">
+                <a href="#" class="btn btn-block btn-outline-green"><i class="fa fa-plus"></i> ADD TO WANT LIST</a>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-push-1">
+                <a href="#" class="btn btn-block btn-outline-orange"><i class="fa fa-plus"></i> ADD YOUR PHOTOS</a>
+              </div>
+              <div class="col-xs-12 col-sm-6 col-lg-5 col-lg-push-1">
+                <a href="#" class="btn btn-block btn-outline-orange">SUGGEST AN EDIT</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- <div class="pd-action pd-button visible-xs visible-sm">
+            <div class="row">
+              <div class="col-xs-12">
+                <a href="#" class="btn btn-green btn-buy btn-block" data-toggle="modal" title="Buy It Now" data-target="#modal_buy">BUY IT NOW</a>
+                <a href="#" class="btn btn-dark btn-block" data-toggle="modal" title="Place Bid" data-target="#modal_bid">PLACE BID ($321 Highest)</a>
+
+              </div>
+              <div class="col-xs-6">
+                <a href="#" class="btn btn-outline-orange btn-block" title="Share">SHARE</a>
+
+              </div>
+              <div class="col-xs-6">
+                <a href="#" class="btn btn-outline-orange btn-block btn-adapt-xs" title="Share">SELL ON COVETLY</a>
+
+              </div>
+            </div>
+          </div> -->
+
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-5">
+          <div class="pd-container">
+            <h1 class="pd-title">GENIE METALLIC #54</h1>
+            <h1 class="pd-price">$355</h1>
+
+            <div class="pd-action">
+              <div class="row">
+                <div class="col-xs-12">
+                  <a href="#" class="btn btn-green btn-buy btn-block" data-toggle="modal" title="Buy It Now" data-target="#modal_buy">BUY IT NOW</a>
+                  <a href="#" class="btn btn-dark btn-block" data-toggle="modal" title="Place Bid" data-target="#modal_bid">PLACE BID ($321 Highest)</a>
+
+                </div>
+                <div class="col-xs-6">
+                  <a href="#" class="btn btn-outline-orange btn-block" title="Share">SHARE</a>
+
+                </div>
+                <div class="col-xs-6">
+                  <a href="#" class="btn btn-outline-orange btn-block btn-adapt-xs" title="Share">SELL ON COVETLY</a>
+
+                </div>
+              </div>
+              <!-- <a href="#" class="info_icon" data-toggle="modal" title="info" data-target="#modal_infobid"><img src="assets/images/icon-info.png" alt="info"></a> -->
+            </div>
+          </div>
+
+          <p class="pd-description">
+            The Blue Genie from Disney's Aladdin can now be yours as a stylized vinyl figure. This Aladdin Blue Genie Disney Pop. Vinyl Figure features the crazy genie rendered in the adorable Pop. Vinyl format.
+          </p>
+
+
+          <div class="pd-tag">
+            <a href="#" class="badge badge-default">Genie</a>
+            <a href="#" class="badge badge-default">Princess Jasmine</a>
+            <a href="#" class="badge badge-default">Aladin</a>
+            <a href="#" class="badge badge-default">Jafar</a>
+            <a href="#" class="badge badge-default">Disney</a>
+            <a href="#" class="badge badge-default">Magic Carpet</a>
+          </div>
+
+          <div class="pd-button visible-xs visible-sm no-bord-bottom">
+            <div class="row">
+              <div class="col-xs-12 col-sm-5 col-lg-5 col-sm-push-1 col-md-push-1 col-lg-push-1">
+                <a href="#" class="btn btn-block btn-outline-green"><i class="fa fa-plus"></i> ADD TO COLLECTION</a>
+              </div>
+              <div class="col-xs-12 col-sm-5 col-lg-5 col-sm-push-1 col-md-push-1 col-lg-push-1">
+                <a href="#" class="btn btn-block btn-outline-green"><i class="fa fa-plus"></i> ADD TO WANT LIST</a>
+              </div>
+              <div class="col-xs-12 col-sm-5 col-lg-5 col-sm-push-1 col-md-push-1 col-lg-push-1">
+                <a href="#" class="btn btn-block btn-outline-orange"><i class="fa fa-plus"></i> ADD YOUR PHOTOS</a>
+              </div>
+              <div class="col-xs-12 col-sm-5 col-lg-5 col-sm-push-1 col-md-push-1 col-lg-push-1">
+                <a href="#" class="btn btn-block btn-outline-orange">SUGGEST AN EDIT</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <div class="block-slide">
+      <div class="bs-title">
+        Related Items
+        <div class="pull-right">
+          <a href="#" data-target="#whats_hot" class="bs-nav-prev"></a>
+          <a href="#" data-target="#whats_hot" class="bs-nav-next"></a>
+        </div>
+      </div>
+
+      <div class="bs-content">
+        <div class="bs-slide" id="whats_hot">
+          <div class="bs-item">
+            <div class="bs-inner">
+              <img src="assets/images/covetly_prod/08.png" alt="">
+              <a href="#" class="bs-link">
+                <div class="bs-detail text-center">
+                  <div class="bs-desc">Gennie Metallic Funky Pop</div>
+                  <div class="bs-price">from $15</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="bs-item">
+            <div class="bs-inner">
+              <img src="assets/images/covetly_prod/09.png" alt="">
+              <a href="#" class="bs-link">
+                <div class="bs-detail text-center">
+                  <div class="bs-desc">Gennie Metallic Funky Pop</div>
+                  <div class="bs-price">from $15</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="bs-item">
+            <div class="bs-inner">
+              <img src="assets/images/covetly_prod/10.png" alt="">
+              <a href="#" class="bs-link">
+                <div class="bs-detail text-center">
+                  <div class="bs-desc">Gennie Metallic Funky Pop</div>
+                  <div class="bs-price">from $15</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="bs-item">
+            <div class="bs-inner">
+              <img src="assets/images/covetly_prod/01.jpg" alt="">
+              <a href="#" class="bs-link">
+                <div class="bs-detail text-center">
+                  <div class="bs-desc">Gennie Metallic Funky Pop</div>
+                  <div class="bs-price">from $15</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="bs-item">
+            <div class="bs-inner">
+              <img src="assets/images/covetly_prod/02.png" alt="">
+              <a href="#" class="bs-link">
+                <div class="bs-detail text-center">
+                  <div class="bs-desc">Gennie Metallic Funky Pop</div>
+                  <div class="bs-price">from $15</div>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="bs-item">
+            <div class="bs-inner">
+              <img src="assets/images/covetly_prod/03.png" alt="">
+              <a href="#" class="bs-link">
+                <div class="bs-detail text-center">
+                  <div class="bs-desc">Gennie Metallic Funky Pop</div>
+                  <div class="bs-price">from $15</div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <!-- main content close -->
+
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 text-center visible-xs">
+          <a href="#" data-toggle="modal" data-target="#modal_downloadapp_2" class="btn btn-green btn-footer">Download APP</a>
+
+        </div>
+        <div class="col-sm-12 col-md-3 col-lg-3 hidden-xs hidden-sm">
+          <div class="copyright">&copy; 2018 by Covetly <a href="#" data-target="#modal_downloadapp_1" class="cicon icon-rabbit" data-toggle="modal"></a></div>
+        </div>
+        <div class="col-sm-7 col-md-5 col-lg-5">
+          <div class="footer-menu">
+            <ul class="list list-inline">
+              <li><a href="#" title="Home">Home</a></li>
+              <li><a href="#" title="FAQ">FAQ</a></li>
+              <li><a href="#" title="Support">Support</a></li>
+              <li><a href="#" title="Privacy Policy">Privacy Policy</a></li>
+              <li><a href="#" title="Terms of Use">Terms of Use</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-5 col-md-4 col-lg-4">
+
+          <div class="social-icon">
+            <ul class="list list-inline">
+              <li class="hidden-xs">
+                <a href="#" data-toggle="modal" data-target="#modal_downloadapp_2" class="btn btn-green btn-footer">Download APP</a>
+
+              </li>
+              <li><a href="#" title="Facebook"><i class="cicon icon-facebook"></i></a></li>
+              <li><a href="#" title="Twitter"><i class="cicon icon-twitter"></i></a></li>
+              <li><a href="#" title="Instagram"><i class="cicon icon-instagram"></i></a></li>
+              <li><a href="#" title="Snapchat"><i class="cicon icon-snapchat"></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 visible-xs visible-sm">
+          <div class="copyright">&copy; 2017 by Covetly <a href="#" data-target="#modal_downloadapp_1" class="cicon icon-rabbit" data-toggle="modal"></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- modal info -->
+  <div class="modal fade" tabindex="-1" role="dialog" id="modal_infobid">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times fa-lg"></i></span></button>
+        </div>
+        <div class="modal-body text-center">
+          <h1 class="pop-title">WHAT ARE LIVE BIDS?</h1>
+          <p>
+            Live Bids are open offers on the item that any verified seller can accept. These bids are backed by a payment; Sellers know the offer is legit.
+          </p>
+          <p>
+            Bids automatically expire if the verified sellers cannot located the item within 30 days.
+          </p>
+          <p>
+            More info on Live Bids in the <a href="#">FAQs</a>.
+          </p>
+          <button class="btn btn-dark btn-fw" data-dismiss="modal">OK</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  <!-- modal buy -->
+  <div class="modal fade" tabindex="-1" role="dialog" id="modal_buy">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times fa-lg"></i></span></button>
+        </div>
+        <div class="modal-body text-center">
+          <img src="assets/images/icon-cart.png" alt="Cart" class="icon-cart-modal">
+          <h1 class="pop-title">ITEM ADDED TO CART!</h1>
+
+          <button class="btn btn-dark">CHECK OUT</button>
+          <button class="btn btn-outline-dark" data-dismiss="modal">KEEP SHOPPING</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  <!-- modal Bid -->
+  <div class="modal fade" tabindex="-1" role="dialog" id="modal_bid">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times fa-lg"></i></span></button>
+        </div>
+        <div class="modal-body text-center">
+          <h1 class="pop-title">FUNKO POP! | DISNEY GENIE METALLIC #54</h1>
+          <p class="text-green">Condition: Mint/Near Mint</p>
+          <h3>Enter Bid:</h3>
+          <input type="text" name="bid_value" value="$325" class="bid_input">
+          <p class="small text-light help-block">Bids expire automatically after 30 days</p>
+
+          <p>Tap a box below to beat highest bid or match lowest offer:</p>
+          <button class="btn btn-dark">BEAT HIGHEST BID ($325)</button>
+          <button class="btn btn-outline-dark">MATCH OFFER ($355)</button>
+          <div class="separator-horizontal"></div>
+          <button class="btn btn-green no-margin btn-fw" data-dismiss="modal">NEXT</button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <!-- modal download app bunny -->
+  <div class="modal fade" tabindex="-1" role="dialog" id="modal_downloadapp_1">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times fa-lg"></i></span></button>
+        </div>
+        <div class="modal-body text-center">
+          <div class="row">
+            <div class="col-xs-3 col-sm-2">
+              <img src="assets/images/transparent_ON_RabbitFinal-02.png" alt="rabbit" class="icon-dl-modal">
+            </div>
+            <div class="col-xs-6 col-sm-8">
+              <h3 class="pop-title-2">Looking to go down the Rabbit Hole? <br>Download the Covetly App for access.</h3>
+            </div>
+            <div class="col-xs-3 col-sm-2">
+              <img src="assets/images/transparent_OFFRabbitFinal-02.png" alt="rabbit" class="icon-dl-modal">
+            </div>
+          </div>
+          <a target="_blank" href="https://itunes.apple.com/us/app/covetly/id1071517114">
+            <img src="assets/images/appstore_dl.png" alt="appstore" class="icon-dl-modal">
+          </a>
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=com.covetlyapp.covetly">
+            <img src="assets/images/playstore_dl.png" alt="playstore" class="icon-dl-modal">
+          </a>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <!-- modal download app header button -->
+  <div class="modal fade" tabindex="-1" role="dialog" id="modal_downloadapp_2">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"><i class="fa fa-times fa-lg"></i></span></button>
+        </div>
+        <div class="modal-body text-center">
+          <h3 class="pop-title-2">Download the Covetly App</h3>
+          <a target="_blank" href="https://itunes.apple.com/us/app/covetly/id1071517114">
+            <img src="assets/images/appstore_dl.png" alt="appstore" class="icon-dl-modal">
+          </a>
+          <a target="_blank" href="https://play.google.com/store/apps/details?id=com.covetlyapp.covetly">
+            <img src="assets/images/playstore_dl.png" alt="playstore" class="icon-dl-modal">
+          </a>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="assets/libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+  <script src="assets/libs/slick-1.8.0/slick/slick.min.js"></script>
+  <script src="assets/libs/ion.rangeSlider-master/js/ion.rangeSlider.min.js"></script>
+  <script src="assets/js/bootstrap-hover-dropdown.min.js"></script>
+  <script src="assets/js/jack-script.js"></script>
+</body>
+</html>
