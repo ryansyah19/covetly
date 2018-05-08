@@ -219,30 +219,21 @@ select.styled-select:focus{
   width: 50px;
   padding: 0;
 }
-@media (min-width: 1025px){
-  .search-bar{
-    margin: 0;
-  }
-  .header-top .search-bar .form-group{
-    width: 100%;
-    position: relative;
-  }
-  .header-top .my-group{
-    width: 100%;
-    margin-right: 12px;
-  }
-  .header-top .my-group input.form-control{
-    width: 75%!important;
-  }
-  .header-top .my-group select.form-control{
-    width:25%!important;
-  }
-  
-  .aa{
-	  width:35%;
+
+.aa{
+	  width:34%;
 	  text-align:center;
 	  padding-top:51px;
 	  display:inline-block;
+	  float:left;
+  }
+  
+  .aa1{
+	  width:34%;
+	  text-align:center;
+	  padding-top:51px;
+	  display:inline-block;
+	  float:right;
   }
   
   .aab {
@@ -253,9 +244,18 @@ select.styled-select:focus{
   text-align: center;
   color: #929292;
   display:inline-block;
+  margin-top:6%;
 }
+
+	.aac{
+		display:none;
+	}
   
   .aa img{
+	  width:139px;
+  }
+  
+  .aa1 img{
 	  width:139px;
   }
   
@@ -428,7 +428,7 @@ select.styled-select:focus{
 }
 
 .dua {
-  width: 22%;
+  width: 25%;
   height: 18px;
   font-family: Montserrat;
   font-size: 15px;
@@ -453,6 +453,17 @@ select.styled-select:focus{
 
 .chat {
   width: 135px;
+  height: 50px;
+  font-weight:bold;
+  border-radius: 4px;
+  background-color: #131234;
+  color:#fff;
+}
+
+.chati{
+  display:none;
+  width: 100%;
+  margin-top:10%;
   height: 50px;
   font-weight:bold;
   border-radius: 4px;
@@ -544,6 +555,47 @@ select.styled-select:focus{
 .bawah{
 	margin-top:5%;
 }
+
+@media (max-width: 1319px){
+	.dua{
+		width:100%;
+		margin-left:0;
+	}
+}
+
+@media (max-width: 1199px){
+	.thumbnail{
+		width:153px;
+	}
+	
+	.thanos{
+		width:153px;
+	}
+	
+	.strip{
+		width:153px;
+	}
+}
+@media (min-width: 1025px){
+  .search-bar{
+    margin: 0;
+  }
+  .header-top .search-bar .form-group{
+    width: 100%;
+    position: relative;
+  }
+  .header-top .my-group{
+    width: 100%;
+    margin-right: 12px;
+  }
+  .header-top .my-group input.form-control{
+    width: 75%!important;
+  }
+  .header-top .my-group select.form-control{
+    width:25%!important;
+  }
+  
+  
 }
 @media (max-width: 1024px){
   .header-top .search-bar .form-group{
@@ -607,13 +659,12 @@ select.styled-select:focus{
     right: 10px;
   }
   
-  .btn-light {
-    color: #fff!important;
-    background-color: #fff;
-    border: none;
-}
 }
 @media(max-width:768px){
+	
+	.aab{    margin-top: 40%;}
+	
+	
 
   .btn-cart,.btn-cart.has-dot{
     top: -52px;
@@ -809,8 +860,32 @@ select.styled-select:focus{
   .header-menu .navbar-default .navbar-nav>li>a {
     padding: 5px 15px;
   }
+  
+  .aab{
+	  display:inline-table;
+  }
+  
+ .thumbnail ,.thanos ,.strip {
+    width: 259px;
+}
+
+  .abus{
+	float:left;
+  }
+  .batas {
+    width: 2px;
+    height: 1685px;
+    border: solid 1px #f2eeee;
+    display: inline-block;
+    margin-left: -3.5%;
+    margin-right: 7.5%;
+}
 }
 @media screen and (max-width: 767px){
+	
+	.batas{
+		display:none;
+	}
   .header-menu .navbar-default .navbar-nav>li{
     display: block;
     text-align: left;
@@ -896,11 +971,172 @@ select.styled-select:focus{
   }
 
 }
+
+@media(max-width: 764px){
+	.valu {
+    width: 136%;
+    height: 25px;
+    margin-left: -19%;
+}
+}
+
+@media (max-width: 761px){
+	.aab{
+		width:25%;
+		
+	}
+	
+	.thumbnail, .thanos, .strip ,.cop {
+    width: 180px;
+}
+}
+
+@media (max-width: 721px){
+	.valu {
+    width: 140%;
+    height: 25px;
+    margin-left: -22%;
+}
+}
+
+@media (max-width: 701px){
+	.valu {
+    width: 150%;
+    height: 25px;
+    margin-left: -25%;
+}
+}
+
+@media (max-width: 666px){
+	.Michael-Dorris{
+		font-size:21px;
+	}
+}
+
+@media (max-width: 661px){
+	.valu {
+    width: 100%;
+    height: 25px;
+    margin-left: 0%;
+}
+}
+
+@media (max-width: 615px){
+	.Michael-Dorris{
+		font-size:20px;
+	}
+}
+
+@media (max-width: 590px){
+	.Michael-Dorris{
+		font-size:19px;
+	}
+	
+	.aab{
+		display:none;
+	}
+	
+	.chat{
+		margin:0;
+	}
+	
+	.aac {
+    display: inline-table;
+    width: 100%;
+    text-align: center;
+}
+	.valu{
+		height:23px;
+	}
+	
+
+}
+
+
+@media (max-width: 573px){
+	.aa{
+		width:34%;
+	}
+}
+
+@media (max-width: 567px){
+	.Michael-Dorris{
+		font-size:18px;
+	}
+}
+
+@media (max-width: 540px){
+	.Michael-Dorris {
+    font-size: 17px;
+}
+}
+
+@media (max-width: 521px){
+	.aa{
+		display:inline-table;
+	}
+}
+
+@media (max-width: 514px){
+	.Michael-Dorris {
+    font-size: 16px;
+}
+}
+
+@media (max-width: 489px){
+	.Michael-Dorris {
+    font-size: 15px;
+}
+}
+
+@media(max-width: 425px){
+	
+	.Michael-Dorris {
+    font-size: 13px;
+}
+	
+	.aa1 img {
+    width: 100px;
+}
+
+.aa img {
+    width: 100px;
+}
+	.thumbnail, .thanos, .strip, .cop {
+    width: 153px;
+}
+
+.chat{
+	display:none;
+}
+
+.chati{
+	display:block;
+}
+}
 @media(max-width:390px){
   .main-slider .slide-title{
     line-height: 30px;
     font-size: 24px;
   }
+  
+  .thumbnail, .thanos, .strip, .cop {
+	  width:110px;
+  }
+  
+  .thumbnail{
+	  height:120px;
+  }
+}
+
+@media (max-width: 323px){
+	.aa1 img {
+    width: 87px;
+}
+
+.aa img {
+    width: 87px;
+}
 }
 /*thumb slider*/
 .thumb-slider{
@@ -970,6 +1206,8 @@ select.styled-select:focus{
 .recent-bids .rbi{
   /*padding: 0 20px;*/
 }
+
+
 @media screen and (max-width: 1199px){
   .footer-menu{
     margin-left: -5px;
